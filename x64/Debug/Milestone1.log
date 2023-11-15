@@ -1,0 +1,11 @@
+﻿  Date.cpp
+  DateTester.cpp
+  main.cpp
+  Status.cpp
+  Utils.cpp
+E:\School\OOP244\Milestones\Milestone1\Utils.cpp(5,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+E:\School\OOP244\Milestones\Milestone1\Utils.cpp(5,1): message : '_CRT_SECURE_NO_WARNINGS' previously declared on the command line
+  Generating Code...
+main.obj : error LNK2005: "void __cdecl testDate(void)" (?testDate@@YAXXZ) already defined in DateTester.obj
+main.obj : error LNK2005: main already defined in DateTester.obj
+E:\School\OOP244\Milestones\Milestone1\x64\Debug\Milestone1.exe : fatal error LNK1169: one or more multiply defined symbols found
